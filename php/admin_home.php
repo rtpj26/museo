@@ -28,35 +28,15 @@
 						<li class="active"><a href="admin_home.php">Dashboard</a></li>
 						<li class="active"><a href="../index.php">Exhibits and Artworks</a></li>
 						<li><a href="control/logout.php">Logout</a></li>
-						<li style="float:right;">
-							<div class="row" >
-								<div class="col-md-3">
-									<form class="navbar-form" role="search">
-										<div class="input-group">
-											<input type="text" class="form-control pull-right input-sm" style="width: 300px; margin-right: 35px, border: 1px solid black; background-color: #e5e5e5;" placeholder="Search">
-											<span class="input-group-btn">
-												<button type="reset" class="btn btn-default">
-													<span class="glyphicon glyphicon-remove">
-														<span class="sr-only">Close</span>
-													</span>
-												</button>
-												<button type="submit" class="btn btn-default">
-													<span class="glyphicon glyphicon-search">
-														<span class="sr-only">Search</span>
-													</span>
-												</button>
-											</span>
-										</div>
-									</form>
-								</div>
-							</div>	
-						</li>
 					</ul>
 				</div>
 			</div>
 			<!--Main Content-->
 			<div>
 			<ul class="page-content main_content">
+				<li>
+					<!--Search Bar-->
+				</li>
 				<li class="topContent">
 					<div class="row">
 						<div class="col-md-2"></div>
@@ -66,6 +46,15 @@
 						<div class="col-md-2"></div>
 					</div>
 				</li>
+				<li>
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+							<div class="featureExhibitBox"></div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</li>	
 					
 			</ul>
 			</div>
